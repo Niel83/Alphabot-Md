@@ -24,9 +24,9 @@ global.sewabotnya = `
 edit sewabot di file settings.js line 24
 `
 // setting 
-global.firtsChat = true //send firts message to new user
-global.autoread = true // auto read message
-global.antidelete = false // anti delete
+global.firtsChat = false //send firts message to new user
+global.autoread = false // auto read message
+global.antidelete = true // anti delete
 global.antiviewonce = true // anti view once
 global.autobio = false //auto ganti bio
 global.anticall = true //anti call, jika true maka org yg nelpon bot auto di blokir
@@ -48,7 +48,7 @@ global.groupOnly = false //bot hanya bisa di gunakan dalam grup jika true
 //language
 //Available in indonesia , english & spanyol 
 //You can request others language 
-global.language = indonesia //change indonesia to english if you don't understand the language used by the bot
+global.language = english //change indonesia to english if you don't understand the language used by the bot
 //global.language = english // use this for English language
 //global.language = spanyol // use this for Spanyol language
 
